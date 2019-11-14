@@ -1,4 +1,4 @@
-FROM node:8.16.0-slim
+FROM node:10-alpine
 
 # Install packages
 RUN apt-get update && apt-get install -yq \
